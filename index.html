@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dani.latre</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--
+        <div class="navegador">
+            <nav>
+                <ul>
+                    <li class="lista-nav"><a href="index.html" >&rarr;DANIEL LATRE</a></li>
+                    
+                    <li class="lista-nav"><a href="https://www.instagram.com/dann.latr/" target="_blank">@dann.latr</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+        -->
+        
+       <div id="weather-clock-widget">
+  <div id="current-time">--:--:--</div>
+
+</div> 
+    <!-- Contenedor principal con scroll -->
+    <div class="desktop-container">
+        <!-- Espacio amplio para las imágenes -->
+        <div class="image-space" id="imageSpace">
+            <!-- Las imágenes se agregarán aquí dinámicamente -->
+        </div>
+    </div>
+    
+    <!-- Modal para el zoom -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content" id="modalContent">
+            <!-- Contenedor para la imagen/video ampliada -->
+            <div id="zoomedMediaContainer"></div>
+        </div>
+        <div class="image-info">
+            <h2 id="imageTitle"></h2>
+            <p id="imageDescription"></p>
+        </div>
+    </div>
+    
+
+    <script src="gallery.js"></script>
+</body>
+</html>
