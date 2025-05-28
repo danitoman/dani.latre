@@ -30,14 +30,15 @@ document.addEventListener('DOMContentLoaded', initWidget);
 
 // Array con la información de tus medios (imágenes y videos)
 const mediaItems = [
-    { src: "img/2025-05-24 02-38-55.mp4",  x: 100, y: 900,  type: "video"},
     { src: "img/PXL_20250126_131916465.MP.jpg", x: 1000, y: 100, type: "image" },
     { src: "img/PXL_20250303_155102619.RAW-01.COVER.jpg",  x: 500, y: 100, type: "image" },
     { src: "img/PXL_20250303_183943567.RAW-01.COVER.jpg", x: 100, y: 400, type: "image" },
-    { src: "img/PXL_20250220_152232896.mp4", x: 800, y: 600, type: "video" },
-    {src: "img/DSCF6034MP4.mp4", x: 900, y: 1000, type: "video" },
     {src: "img/pruebas_labo_daniel_latre_00_2.jpg", x: 1200, y: 300, type: "image"},
-    {src: "img/video_cubo_agua.mp4", x: 600, y: 700, type: "video"},
+
+    { src: "videos/2025-05-24 02-38-55.mp4",  x: 100, y: 900,  type: "video"},
+    { src: "videos/PXL_20250220_152232896.mp4", x: 800, y: 600, type: "video" },
+    {src: "videos/DSCF6034MP4.mp4", x: 900, y: 1000, type: "video" },
+    {src: "videos/video_cubo_agua.mp4", x: 600, y: 700, type: "video"},
   
     
    
